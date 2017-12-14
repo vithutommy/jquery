@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>UKISITE</title>
+    <link href="ukilife.css" rel="stylesheet" type="text/css" media="screen"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<div align="center">
+<a href="file:///D:/uki/coding/ukilife.html">Home</a>|
+  <a href="file:///D:/uki/coding/css/form/form2.html"> Form </a>|
+  <a href="file:///D:/uki/coding/css/timetable/timetable.html">Timetable</a>
+</div>
+<div >
+  <img src="blueuki.png" width="100%" >
+</div >
+<script>
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+
+
+$(document).ready(function(){
+    $("#p1").mouseenter(function(){
+        alert("You entered to Uki!");
+  });
+});
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("ul").hide();
+    });
+    $("#show").click(function(){
+        $("ul").show();
+    });
+  });
+
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("p3").toggle();
+    });
+});
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#tog").hide(1000);
+    });
+});
+</script>
+
+
+
+
+
+<style>
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: lightblue;
+    border: solid 1px #c3c3c3;
+    color:blue;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+
+<div id="flip">welcome uki</div>
+<div id="panel">hey uki!</div>
+
+<center><div class="welcome">
+
+
+
+
+
+
+  <h2>Welcome to UKI : Stepping stone to tech life</h2>
+
+
+
+
+
+<p id="p1">  It is a full scholarship based Accelerator program for Coding in Jaffna, Sri Lanka targeting students who has completed Advanced Level examinations and don’t have access to university education or any other form of vocational education. It is aimed to provide the necessary training to enter Computer Software industry or to start an IT startup.
+This is a joint initiative by Yarl IT Hub and SERVE Foundation. Yarl IT Hub has been functioning for the last five years as a not for profit social enterprise focusing on technology entrepreneurship in northern Sri Lanka and SERVE Foundation is a four year old foundation focusing on using technology to uplift secondary education standards in rural schools in northern Sri Lanka.</p>
+</div></center>
+
+<div class="Course">
+<h2>Course</h2>
+  <p>
+    Our vision is to be a leading center of excellence in teaching,<br>learning, research and scholarship.<br></p>
+
+
+    <ul id="ul" >
+      <li>Programming</li>
+      <li>Basic Business</li>
+      <li>Spoken English and commucation skills.</li>
+      <li>Personal coaching</li>
+    </ul>
+
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+</div>
+
+
+<div class="coding">
+
+
+    <h2>CODING ACCELERATION PROGRAM</h2><br>
+
+  <p id="tog">
+
+    This coding acceleration program is an intensive training on full-stack development with sever-side node.js and modern
+    client-side, front-end libaries and frameworks. throughout
+    this intensive course the student will study professional
+    softwear development techniques and practices as he/she
+    advances his.her skills on javascribt.
+
+</p>
+<button>deatails here</button>
+
+
+
+</div>
+<div>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  <footer class="foot">
+    2017 @ Uki All Right Reserved. A joint initiative by yarl it hub and SERVE Foundation
+
+  </footer>
+</div>
+</body>
+</html>

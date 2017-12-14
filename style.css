@@ -1,0 +1,53 @@
+#container {
+  background-color: #dcf7f0;
+}
+
+table {
+  width: 1200px;
+  height: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  height: 40px;
+  border: 1px solid black;
+}
+
+td {
+  height: 30px;
+  border: 1px solid black;
+}
+
+
+
+.darkbluecolor {
+  background-color: #0b13a8;
+  color: white;
+}
+.yogalightblue {
+  background-color: #9bf2ed
+}
+.personal{
+  background-color: #f77422
+}
+.Programming{
+  background-color: #f721da
+}
+ .english{
+   background-color: #f3f721
+ }
+ .tost{
+   background-color: #f72136
+ }
+ .building{
+   background-color: #fcbc88
+ }
+.gap{
+  background-color: #06ad2b;
+  text-align:center;
+}
+.firstcol{
+
+  background-color: #ff0000
+}
